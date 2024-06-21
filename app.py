@@ -1,7 +1,8 @@
 from database.setup import create_tables
 from database.connection import get_db_connection
+from models.conn import conn,cursor
 from models.article import Article
-from models.author import Author
+from models.author import  Author
 from models.magazine import Magazine
 
 def main():
